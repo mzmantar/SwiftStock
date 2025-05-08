@@ -60,7 +60,3 @@
 ## 👤 Auteur
 
 - **Mehdi Z. Mantar** — [GitHub](https://github.com/mzmantar)
-
----
-
-> Ce projet est en cours de développement. Contributions bienvenues !
