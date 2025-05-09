@@ -47,7 +47,8 @@
 
 4. Appliquer les migrations :
    ```bash
-   dotnet ef database update
+   dotnet ef migrations add AddAllTables --project SwiftStock.csproj
+   dotnet ef database update --project SwiftStock.csproj
    ```
 
 5. Lancer l'application
@@ -59,4 +60,4 @@
 
 ## 👤 Auteur
 
-- **Mehdi Z. Mantar** — [GitHub](https://github.com/mzmantar)
+- **Mehdi Z. — [GitHub](https://github.com/mzmantar)
