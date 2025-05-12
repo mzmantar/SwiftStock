@@ -10,6 +10,8 @@
 
 	<ItemGroup>
 		<PackageReference Include="CsvHelper" Version="33.0.1" />
+		<PackageReference Include="DevExpress.Win.Dashboard.Design" Version="24.2.7" />
+		<PackageReference Include="DevExpress.Win.Design" Version="24.2.7" />
 		<PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.7" />
 		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3" />

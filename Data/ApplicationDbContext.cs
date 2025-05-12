@@ -14,12 +14,14 @@ namespace SwiftStock.Data
         public DbSet<Detail_Commande> DetailCommandes { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Commande> Commandes { get; set; }
+        public DbSet<DemandeResetPassword> DemandesResetPassword { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseMySql(
                 "server=localhost;database=swiftstockdb;user=root;password=;",
                 new MySqlServerVersion(new Version(8, 0, 3))
+
             );
         }
 

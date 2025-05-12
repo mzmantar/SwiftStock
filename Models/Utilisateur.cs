@@ -16,7 +16,7 @@ namespace SwiftStock.Models
         [Required]
         [MaxLength(50)]
         public required string NomUtilisateur { get; set; }
-
+          
         [Required]
         [MaxLength(100)]
         public required string MotDePasse { get; set; }

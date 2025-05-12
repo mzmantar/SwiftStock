@@ -1,5 +1,4 @@
 using SwiftStock.Views;
-
 namespace SwiftStock
 {
     internal static class Program
@@ -15,7 +14,7 @@ namespace SwiftStock
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Lance l'application avec le formulaire principal
-            Application.Run(new LoginView());
+            Application.Run(new LoginForm());
         }
     }
 }
