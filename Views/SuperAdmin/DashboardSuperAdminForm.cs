@@ -78,9 +78,14 @@ namespace SwiftStock.Views
         }
         private void LabSwiftStock_Click(object sender, EventArgs e)
         {
-            
+
             var homeUserControl = new HomeUserControl();
             LoadView(homeUserControl);
+
+        }
+
+        private void PanelContent_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

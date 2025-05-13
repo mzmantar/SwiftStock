@@ -1,11 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Views\Admin\AddStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Admin\DashboardHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Views\Admin\DashboardAdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Client\DashboardClientForm.cs">
+    <Compile Update="Views\Admin\DataImportandExport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Admin\DropStock.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Admin\ListeStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Admin\OrdersandPayments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Admin\ProductsandCategories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Admin\StockManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Admin\UpdateStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Admin\Userandroles.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\RoundedPanel.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Update="Views\SuperAdmin\DashboardSuperAdminForm.cs">
       <SubType>Form</SubType>

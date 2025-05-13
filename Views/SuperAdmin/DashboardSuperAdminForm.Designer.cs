@@ -140,7 +140,7 @@
             HomeButton.Padding = new Padding(50, 0, 0, 0);
             HomeButton.Size = new Size(472, 99);
             HomeButton.TabIndex = 3;
-            HomeButton.Text = "          Home ";
+            HomeButton.Text = "          Dashboard";
             HomeButton.TextAlign = ContentAlignment.MiddleLeft;
             HomeButton.UseVisualStyleBackColor = false;
             HomeButton.Click += HomeButton_Click;
@@ -320,6 +320,7 @@
             PanelContent.Name = "PanelContent";
             PanelContent.Size = new Size(1613, 1211);
             PanelContent.TabIndex = 1;
+            PanelContent.Paint += PanelContent_Paint;
             // 
             // Sidebar
             // 

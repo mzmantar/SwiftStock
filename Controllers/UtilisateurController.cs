@@ -47,12 +47,6 @@ namespace SwiftStock.Controllers
             return _context.Utilisateurs.ToList();
         }
 
-        public Utilisateur Connexion(string nomUtilisateur, string motDePasse)
-        {
-            return _context.Utilisateurs
-                .FirstOrDefault(u => u.NomUtilisateur == nomUtilisateur && u.MotDePasse == motDePasse);
-        }
-
         public bool SupprimerUtilisateur(int id)
         {
             var utilisateur = _context.Utilisateurs.Find(id);

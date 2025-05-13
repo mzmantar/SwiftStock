@@ -17,5 +17,10 @@ namespace SwiftStock.Views.SuperAdmin
         {
             InitializeComponent();
         }
+
+        private void HomeUserControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

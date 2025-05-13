@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Text;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace SwiftStock.Views
+namespace SwiftStock.Views.Admin
 {
-	public partial class DashboardClientForm: DevExpress.XtraEditors.XtraForm
-	{
-        public DashboardClientForm()
-		{
+    public partial class StockManagement : DevExpress.XtraEditors.XtraUserControl
+    {
+        public StockManagement()
+        {
             InitializeComponent();
-		}
-	}
+        }
+    }
 }

@@ -27,6 +27,7 @@ namespace SwiftStock.Models
         public string Categorie { get; set; }
 
         [MaxLength(200)]
+        
         public string ImageUrl { get; set; }
 
         [Required]

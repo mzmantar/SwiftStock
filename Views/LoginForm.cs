@@ -67,7 +67,7 @@ namespace SwiftStock.Views
                             break;
 
                         case "client":
-                            var clientForm = new DashboardClientForm();
+                            var clientForm = new DashboardAdminForm();
                             clientForm.Show();
                             break;
 
